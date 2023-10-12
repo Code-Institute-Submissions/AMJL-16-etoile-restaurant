@@ -32,8 +32,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-amjl-16-etoile-restauran-271ebk8bun.us2.codeanyapp.com', 
-    'etoile-restaurant-20456ddd0460.herokuapp.com/', 'localhost']
+    '8000-amjl-16-etoile-restauran-271ebk8bun.us2.codeanyapp.com',
+    'etoile-restaurant-20456ddd0460.herokuapp.com', 'localhost']
 
 
 # Application definition
