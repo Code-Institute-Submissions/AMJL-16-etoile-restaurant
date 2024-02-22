@@ -1,0 +1,133 @@
+/* Common styles for all pages */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header .btn-secondary {
+  color: #ffffff;
+  background-color: #343a40;
+  border: 2px solid #ffffff;
+}
+
+.header .btn-secondary:hover {
+  background-color:  rgb(212, 174, 48);
+  border: 2px solid #ffffff;
+}
+
+.footer {
+  background-color: #343a40;
+  position: fixed;
+  bottom: 0;
+  width: 100%; 
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer a {
+  color: #ffffff;
+}
+
+.footer a:hover {
+  color: rgb(212, 174, 48);
+}
+
+/* background images */
+.restaurant-bg {
+  background-image: url('kayleigh-harrington-yhn4okt6ci0-unsplash.jpg'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.booking-bg {
+  background-image: url('hannah-busing-0BhSKStVtdM-unsplash.jpg'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  color: rgb(253, 248, 248); /* white text for readability */
+}
+
+/* form container */
+.form-container {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #343a40;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  border: 2px solid #ced4da;
+}
+
+.form-container .btn-primary {
+  color: #ffffff;
+  background-color: #343a40;
+  border: 2px solid #ffffff;
+}
+
+.form-container .btn-primary:hover {
+  background-color: rgb(212, 174, 48);
+  border: 2px solid #ffffff;
+}
+.container .btn-primary {
+  color: #ffffff;
+  background-color: #343a40;
+  border: 2px solid #ffffff;
+}
+
+.container .btn-primary:hover {
+  background-color: rgb(212, 174, 48);
+  border: 2px solid #ffffff;
+}
+
+.about {
+  margin: 5em 8em 5em 8em;
+  padding: 15px 20px;
+  width: auto;
+  color: white;
+  background-color: #343a40;
+  text-align: center;
+}
+
+.menu-btn {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-icon {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 6px 0;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  .container {
+      text-align: center;
+      margin: 5px auto;
+  }
+
+  .about {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+  }
+  .menu-links {
+      display: none; /* Hide the navigation links on smaller screens */
+  }
+
+  .menu-icon {
+      display: block; /* Show the menu button on smaller screens */
+  }
+}
